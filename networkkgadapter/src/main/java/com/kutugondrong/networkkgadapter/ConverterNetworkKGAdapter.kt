@@ -11,6 +11,9 @@ abstract class ConverterNetworkKGAdapter(val type: Int = -1) {
         const val JSONKGADAPTER = 1
     }
 
-    abstract fun fromJson(json: String, classOf: KClass<*>, adapterClass: KClass<*>?): Any?
+    abstract fun fromJson(json: String, classOf: KClass<*>, isList: Boolean): Any?
+
+    abstract  fun toJson(value: Any) : String?
+
 }
 

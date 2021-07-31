@@ -1,3 +1,13 @@
 # NETWORKKGADAPTER
 
-For instance dynamic adapter converter
+Base Adapter
+
+```
+
+	dependencies {
+	        implementation 'com.github.KutuGondrong:networkadapter-kg:0.0.1'
+	}
+
+```
+
+[kutugondrong.com](https://kutugondrong.com/)
